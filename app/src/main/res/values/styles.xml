@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme.Game" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Remove title / action bar -->
+        <item name="android:windowNoTitle">true</item>
+
+        <!-- Fullscreen immersive -->
+        <item name="android:windowFullscreen">true</item>
+
+        <!-- No system bars padding -->
+        <item name="android:fitsSystemWindows">false</item>
+
+        <!-- Remove shadow under action bar -->
+        <item name="android:windowContentOverlay">@null</item>
+
+        <!-- Enable fast GPU rendering -->
+        <item name="android:hardwareAccelerated">true</item>
+
+        <!-- Allow fullscreen in notch area -->
+        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+
+        <!-- Optional: reduce fragment/container transitions for performance -->
+        <item name="android:windowIsTranslucent">false</item>
+    </style>
+
+</resources>
